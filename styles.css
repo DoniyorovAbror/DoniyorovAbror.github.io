@@ -404,4 +404,12 @@ hr {
     border-radius: 50%;
     background-color: rgb(33, 65, 140);
   }
+  
+  .footer {
+    width: 1520px;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: rgb(181, 201, 229);
+  }
 }
