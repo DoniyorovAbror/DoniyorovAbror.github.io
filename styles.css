@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Nanum+Gothic:wght@800&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenier {
+  /* max-width: 700px;
+  min-width: 300px; */
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(181, 201, 229);
+}
+
+.contenier h2 {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile h2 {
+  cursor: auto;
+}
+
+.contenier h2:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 90%;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(32, 75, 140);
+}
+
+.img {
+  margin: 50px auto;
+  width: 200px;
+  min-width: 150px;
+  height: 200px;
+  min-height: 150px;
+  border: 5px solid rgb(35, 75, 140);
+  transform: rotate(45deg);
+  overflow: hidden;
+  position: relative;
+}
+
+.img img {
+  position: absolute;
+  width: 200%;
+  transform: rotate(-45deg);
+  top: -110px;
+  left: -140px;
+}
+
+.left-side {
+  margin-left: 10px;
+  font-size: 16px;
+  min-width: 300px;
+  max-width: 700px;
+}
+
+.right-side {
+  margin-left: 10px;
+  margin-top: -20px;
+  font-size: 16px;
+}
+
+h1 {
+  line-height: 40px;
+  font-family: "Alkatra", cursive;
+  font-size: 3rem;
+}
+
+.firstname {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.profession {
+  text-align: center;
+  margin-top: -30px;
+  font-family: "Alkatra", cursive;
+}
+
+hr {
+  border-color: rgb(32, 72, 133);
+  margin-top: -15px;
+  margin-right: 60px;
+}
+
+.about-me {
+  margin-right: 30px;
+}
+
+.contenier div[class$="_content"] {
+  display: none;
+}
+
+.collabsible {
+  display: block;
+}
+
+.box {
+  height: 16px;
+  width: 90%;
+  background-color: grey;
+  color: rgb(240, 244, 255);
+}
+
+.python {
+  width: 70%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+.django {
+  width: 65%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+.javascript {
+  width: 45%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+.htmlcss {
+  width: 70%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+.compskills {
+  width: 75%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+.acad {
+  width: 70%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+.work-team {
+  width: 80%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+.communication {
+  width: 85%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+.microsoft {
+  width: 55%;
+  height: 16px;
+  background-color: #04aa6d;
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .contenier {
+    max-width: 1500px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contenier div[class$="_content"] {
+    display: block;
+  }
+
+  .contenier h2:after {
+    content: none;
+  }
+
+  .contenier h2 {
+    cursor: auto;
+  }
+
+  .left-side {
+    width: 500px;
+    margin-left: 50px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(181, 201, 229);
+  }
+
+  .img {
+    margin-top: 80px;
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(35, 75, 140);
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .img img {
+    position: absolute;
+    width: 200%;
+    transform: rotate(-45deg);
+    top: -140px;
+    left: -170px;
+  }
+
+  .right-side {
+    width: 1000px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(223, 231, 233);
+    font-size: 20px;
+  }
+
+  h1 {
+    line-height: 40px;
+    font-family: "Alkatra", cursive;
+    font-size: 3rem;
+  }
+
+  .firstname {
+    text-align: left;
+    margin-top: 100px;
+  }
+
+  .profession {
+    text-align: left;
+    margin-top: -30px;
+    font-family: "Alkatra", cursive;
+  }
+
+  hr {
+    border-color: rgb(32, 72, 133);
+    margin-top: -15px;
+    margin-right: 50px;
+  }
+
+  .about-me {
+    margin-right: 50px;
+  }
+
+  .box {
+    height: 20px;
+    width: 90%;
+    background-color: grey;
+    color: rgb(240, 244, 255);
+  }
+
+  .python {
+    width: 70%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  .django {
+    width: 65%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  .javascript {
+    width: 45%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  .htmlcss {
+    width: 70%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  .compskills {
+    width: 75%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  .acad {
+    width: 70%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  .work-team {
+    width: 80%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  .communication {
+    width: 85%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  .microsoft {
+    width: 55%;
+    height: 20px;
+    background-color: #04aa6d;
+    text-align: right;
+  }
+
+  h2 {
+    height: 60px;
+    background-color: rgb(33, 65, 140);
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 60px;
+  }
+
+  .courses_content,
+  .education_content,
+  .employment-history_content {
+    padding: 20px;
+    margin: 30px;
+  }
+
+  .employment-history_content {
+    position: relative;
+    max-width: 900px;
+  }
+
+  .employment-history_content::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    background-color: rgb(33, 65, 140);
+    top: -35px;
+    bottom: 30px;
+    right: 60px;
+    height: 880px;
+  }
+
+  .employment-history_content h3 {
+    position: relative;
+  }
+
+  .jobs {
+    background-color: white;
+    border-color: aliceblue;
+    padding: 5px;
+    margin-bottom: 25px;
+    width: 700px;
+    min-width: 300px;
+    height: auto;
+  }
+
+  .employment-history_content h3::before {
+    content: "";
+    height: 0;
+    position: absolute;
+    top: -29px;
+    width: 20px;
+    z-index: 2;
+    right: -110px;
+    border: medium solid white;
+    border-width: 20px 0 20px 90px;
+    border-color: transparent transparent transparent white;
+  }
+
+  .employment-history_content h3::after {
+    content: "";
+    height: 50px;
+    position: absolute;
+    top: -34px;
+    width: 50px;
+    z-index: 1;
+    right: -115px;
+    border-radius: 50%;
+    background-color: rgb(33, 65, 140);
+  }
+}
